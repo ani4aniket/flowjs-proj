@@ -1,0 +1,19 @@
+{
+  "name": "flowapp",
+  "version": "1.0.0",
+  "description": "sample flow app",
+  "main": "index.js",
+  "scripts": {
+    "build": "babel src/ -d lib/",
+    "prepublish": "npm run build",
+    "flow": "flow"
+  },
+  "author": "Aniket Kumar <aniketkumar049@gmail.com> (https://www.ianiket.me)",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/cli": "^7.10.1",
+    "@babel/core": "^7.10.2",
+    "@babel/preset-flow": "^7.10.1",
+    "flow-bin": "^0.126.1"
+  }
+}
